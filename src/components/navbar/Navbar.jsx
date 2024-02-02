@@ -6,12 +6,11 @@ const Navbar = () => {
     <div className="header">
       <div className="headerLeft">
         <Link to={"/"}>
-          {" "}
           <img
             className="header__icon"
             src="https://ik.imagekit.io/xcuqahb2st38/rand/logo.png?updatedAt=1706619838623"
             alt=""
-          />{" "}
+          />
         </Link>
         <Link to={"/movies/popular"}>
           <span>Popular</span>

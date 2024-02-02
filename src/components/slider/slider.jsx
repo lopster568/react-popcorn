@@ -15,7 +15,6 @@ const Slider = () => {
       .then((data) => setPopularMovies(data.results));
   }, []);
 
-  console.log(popularMovies)
 
   return (
     <Carousel
@@ -26,7 +25,7 @@ const Slider = () => {
       showStatus={false}
     >
       {popularMovies.map((movie) => (
-        <Link className="posterContainer" to={"/"} key={movie.id} >
+        <Link className="posterContainer" to={`/movie/${movie.id}`} key={movie.id} >
           <div className="posterImage">
             <img
               src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}

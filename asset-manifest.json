@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-popcorn/static/css/main.2db5cab1.css",
+    "main.js": "/react-popcorn/static/js/main.84798405.js",
+    "index.html": "/react-popcorn/index.html",
+    "main.2db5cab1.css.map": "/react-popcorn/static/css/main.2db5cab1.css.map",
+    "main.84798405.js.map": "/react-popcorn/static/js/main.84798405.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2db5cab1.css",
+    "static/js/main.84798405.js"
+  ]
+}
